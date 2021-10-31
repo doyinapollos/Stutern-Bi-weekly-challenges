@@ -1,0 +1,1308 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+#header {
+    width: 100%;
+    height: 40px;
+    background-color: #e6f8f9;
+    position: fixed;
+}
+
+#nav-div {
+    display: none;
+}
+
+#header-div-2 {
+    display: none;
+}
+
+#section-1 {
+    width: 100%;
+    height: 550px;
+    background-color: #09959c;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#stutern-logo {
+    width: 100px;
+    height: 25px;
+    padding: 5px 0px 0px 5px;
+}
+
+#header-btn {
+    float: right;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    position: relative;
+    bottom: 22px;
+    right: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1b1642;
+    margin-left: 18px;
+    padding-top: 26px;
+}
+
+#section-1-para {
+    display: none;
+}
+
+#section-1-paragraph-3 {
+    display: none;
+}
+
+#section-1-paragraph {
+    margin-left: 18px;
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+#img-section-1-aside-right {
+    display: none;
+}
+
+#section-1-btn {
+    width: 150px;
+    height: 40px;
+    background-color: #e6f8f9;
+    border-radius: 4px;
+    margin-left: 18px;
+    font-size: 17px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section-2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-2-img {
+    width: 300px;
+    margin-top: 45px;
+}
+
+#section-2-paragraph-1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 40px 0px 20px 30px;
+}
+
+#section-2-paragraph-1-1 {
+    display: none;
+}
+
+#section-2-span {
+    color: rgb(114, 248, 230);
+}
+
+#section-2-paragraph-2 {
+    margin-left: 30px;
+    line-height: 22px;
+}
+
+#section-2-paragraph-2-1 {
+    display: none;
+}
+
+#section-3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 26px;
+}
+
+#section-3-paragrapg-1 {
+    display: none;
+}
+
+#section-3-paragraph {
+    line-height: 22px;
+}
+
+#section-3-span-1 {
+    position: relative;
+    left: 60px;
+}
+
+#section-3-span-2 {
+    position: relative;
+    left: 80px;
+}
+
+#section-4 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-4-pictures {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+#section-4-div-1 {
+    margin-left: 40px;
+}
+
+#section-4-div-2 {
+    margin-left: 30px;
+}
+
+.section-4-paragraph-2 {
+    font-size: 12px;
+}
+
+#section-5 {
+    width: 100%;
+    height: 400px;
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-5-paragraph-1 {
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#section-5-paragraph-1-1 {
+    display: none;
+}
+
+#section-5-div {
+    display: flex;
+}
+
+#section-5-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#section-5-span {
+    font-size: 12px;
+}
+
+#section-5-paragraph-2 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+#section-5-paragraph-2-1 {
+    display: none;
+}
+
+#section-6 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-6-paragraph-1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: navy;
+    margin-bottom: 20px;
+}
+
+#section-6-paragraph-1-1 {
+    display: none;
+}
+
+#section-6-paragraph-2 {
+    line-height: 18px;
+}
+
+#section-6-paragraph-2-1 {
+    display: none;
+}
+
+#section-6-span {
+    margin-left: 100px;
+}
+
+#section-7 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+#section-8 {
+    width: 100%;
+    height: 450px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#section-8-paragraph-1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+#section-8-paragraph-1-1 {
+    display: none;
+}
+
+#section-8-btn-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-8-btn-1 {
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#section-8-btn-2 {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+}
+
+#section-9 {
+    width: 100%;
+    height: 600px;
+    background-color: navy;
+}
+
+#stutern-logo-section-9 {
+    width: 100px;
+    height: 25px;
+}
+
+.section-9-div-1 {
+    margin: 50px 0px 0px 30px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    #header {
+        width: 100%;
+        height: 100px;
+        background-color: #e6f8f9;
+        display: flex;
+        position: fixed;
+    }
+    #stutern-logo {
+        width: 140px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    #header-btn {
+        display: none;
+    }
+    #nav-div {
+        display: flex;
+    }
+    nav ul li {
+        position: relative;
+        list-style-type: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0 3px;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    nav ul li a:hover {
+        background-color: crimson;
+    }
+    nav ul ul {
+        position: absolute;
+        top: 20px;
+        display: none;
+    }
+    nav ul li:hover>ul {
+        display: block;
+    }
+    nav ul ul li {
+        width: 150px;
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+    #header-ul {
+        display: flex;
+        margin-top: 20px;
+    }
+    .header-list {
+        margin: 15px 10px;
+    }
+    #header-div-2 {
+        display: flex;
+        margin-top: 30px;
+        padding-right: 30px;
+    }
+    #header-btn-1 {
+        width: 50px;
+        height: 30px;
+        background-color: orchid;
+        margin-right: 10px;
+        border-radius: 4px;
+    }
+    #header-btn-2 {
+        width: 70px;
+        height: 30px;
+        background-color: greenyellow;
+        border-radius: 4px;
+    }
+    #section-1 {
+        width: 100%;
+        height: 650px;
+        background-color: #09959c;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-1-aside-left {
+        margin-top: 80px;
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1b1642;
+    }
+    #section-1-para {
+        display: none;
+    }
+    #section-1-paragraph-3 {
+        display: none;
+    }
+    #section-1-aside-right {
+        margin-top: 100px;
+    }
+    #img-section-1-aside-right {
+        display: flex;
+        width: 350px;
+        padding-right: 20px;
+    }
+    #section-2 {
+        width: 100%;
+        height: 500px;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-2-img {
+        width: 350px;
+        margin-top: 45px;
+    }
+    #section-2-paragraph-1 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        padding: 40px 0px 20px 15px;
+    }
+    #section-3 {
+        width: 100%;
+        height: 300px;
+        background-color: hotpink;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2 {
+        display: none;
+    }
+    #section-3-paragrapg-1 {
+        display: block;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 30px;
+    }
+    #section-4 {
+        width: 100%;
+        height: 800px;
+        background-color: khaki;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-4-div-1 {
+        padding-left: 100px;
+    }
+    #section-4-div-2 {
+        padding-right: 50px;
+    }
+    #section-6-paragraph-1-1 {
+        display: none;
+    }
+    #section-7 {
+        width: 100%;
+        height: 400px;
+        background-color: orange;
+        display: flex;
+    }
+    #section-5-paragraph-1-1 {
+        display: none;
+    }
+    .section-7-div-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-7-img {
+        width: 60px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    #header {
+        width: 100%;
+        height: 100px;
+        background-color: #e6f8f9;
+        display: flex;
+        position: fixed;
+    }
+    #header-div-1 {
+        margin-left: 0px;
+    }
+    #stutern-logo {
+        width: 160px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #header-btn {
+        display: none;
+    }
+    #nav-div {
+        display: flex;
+        margin-left: 0px;
+    }
+    nav ul li {
+        position: relative;
+        list-style-type: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0 3px;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    nav ul li a:hover {
+        background-color: crimson;
+    }
+    nav ul ul {
+        position: absolute;
+        top: 20px;
+        display: none;
+    }
+    nav ul li:hover>ul {
+        display: block;
+    }
+    nav ul ul li {
+        width: 150px;
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+    #header-ul {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .header-list {
+        margin: 15px 10px 0px 7px;
+        font-size: 21px;
+    }
+    #header-div-2 {
+        display: flex;
+        margin-top: 30px;
+        padding-right: 40px;
+        margin-left: 0px;
+    }
+    #header-btn-1 {
+        width: 70px;
+        height: 40px;
+        background-color: orchid;
+        margin-right: 10px;
+        border-radius: 4px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #header-btn-2 {
+        width: 90px;
+        height: 40px;
+        background-color: greenyellow;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #section-1 {
+        width: 100%;
+        height: 650px;
+        background-color: #09959c;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-1-aside-left {
+        margin-top: 80px;
+        overflow: hidden;
+    }
+    h1 {
+        display: none;
+    }
+    #section-1-aside-left {
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    #section-1-para {
+        display: block;
+        font-size: 45px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1b1642;
+    }
+    #section-1-paragraph {
+        display: none;
+    }
+    #section-1-paragraph-3 {
+        display: block;
+        font-size: 23px;
+        margin-top: 30px;
+    }
+    #section-1-aside-right {
+        padding-top: 100px;
+    }
+    #img-section-1-aside-right {
+        display: flex;
+        width: 350px;
+        padding: 80px 30px 0px 0px;
+    }
+    #section-2 {
+        width: 100%;
+        height: 500px;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-2-aside-left {
+        padding-top: 30px;
+    }
+    #section-2-aside-right {
+        padding-top: 30px;
+    }
+    #section-2-img {
+        width: 400px;
+        margin-top: 45px;
+    }
+    #section-2-paragraph-1 {
+        display: none;
+    }
+    #section-2-paragraph-1-1 {
+        display: block;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        padding: 40px 0px 20px 15px;
+    }
+    #section-2-paragraph-2 {
+        display: none;
+    }
+    #section-2-paragraph-2-1 {
+        display: block;
+        margin-left: 30px;
+        line-height: 22px;
+        font-size: 25px;
+    }
+    h2 {
+        display: none;
+    }
+    #section-3-paragrapg-1 {
+        display: block;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 30px;
+    }
+    #section-3-paragraph {
+        display: none;
+    }
+    #section-3-paragraph-4 {
+        font-size: 20px;
+    }
+    #section-4 {
+        width: 100%;
+        height: 800px;
+        background-color: khaki;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-4-div-1 {
+        display: flex;
+        padding-left: 0px;
+    }
+    #section-4-div-2 {
+        display: flex;
+        padding-left: 0px;
+    }
+    .section-4-pictures {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 38px;
+    }
+    .section-4-div-1a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-5-paragraph-1 {
+        display: none;
+    }
+    #section-5-paragraph-1-1 {
+        display: block;
+        font-size: 27px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 40px;
+    }
+    #section-5-div {
+        display: flex;
+    }
+    #section-5-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    #section-5-span {
+        font-size: 14px;
+    }
+    #section-5-paragraph-2 {
+        display: none;
+    }
+    #section-5-paragraph-2-1 {
+        display: block;
+        color: white;
+        margin-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    #section-6-paragraph-1 {
+        display: none;
+    }
+    #section-6-paragraph-1-1 {
+        display: block;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: navy;
+        margin-bottom: 20px;
+    }
+    #section-6-paragraph-2 {
+        display: none;
+    }
+    #section-6-paragraph-2-1 {
+        display: block;
+        font-size: 25px;
+        line-height: 23px;
+    }
+    #section-7 {
+        width: 100%;
+        height: 460px;
+        background-color: orange;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section-7-div-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .section-7-img {
+        width: 120px;
+        height: 80px;
+        margin: 30px 0px 20px 0px;
+    }
+    #section-8 {
+        width: 80%;
+        height: 450px;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        margin-left: 10%;
+    }
+    #section-8-paragraph-1 {
+        display: none;
+    }
+    #section-8-paragraph-1-1 {
+        display: block;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 40px;
+    }
+    #section-8-btn-div {
+        display: flex;
+        flex-direction: row;
+    }
+    #section-8-btn-1 {
+        width: 180px;
+        height: 70px;
+        background-color: white;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+    #section-8-btn-2 {
+        width: 250px;
+        height: 70px;
+        background-color: black;
+        border-radius: 4px;
+        font-size: 18px;
+        color: white;
+        margin: 60px 0px 0px 12px;
+    }
+    #section-9 {
+        width: 100%;
+        height: 600px;
+        background-color: navy;
+        display: flex;
+        justify-content: center;
+    }
+    #stutern-logo-section-9 {
+        width: 100px;
+        height: 25px;
+    }
+    .section-9-div-1 {
+        margin: 50px;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li {
+        margin-top: 50px;
+        font-size: 23px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #header {
+        width: 100%;
+        height: 100px;
+        background-color: #e6f8f9;
+        display: flex;
+        position: fixed;
+    }
+    #header-div-1 {
+        margin-left: 0px;
+    }
+    #stutern-logo {
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    a #stutern-logo:hover {
+        background-color: turquois5;
+    }
+    #header-btn {
+        display: none;
+    }
+    #nav-div {
+        display: flex;
+        margin-right: 0px;
+    }
+    nav ul li {
+        position: relative;
+        list-style-type: none;
+        display: inline-block;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0 0px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    nav ul ul {
+        width: 180px;
+        height: 120px;
+        background-color: white;
+        position: absolute;
+        display: none;
+    }
+    nav ul li:hover>ul {
+        display: block;
+    }
+    nav ul ul li {
+        float: none;
+        position: relative;
+        margin-top: 13px;
+    }
+    #header-ul-a {
+        width: 140px;
+        height: 100px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul-b {
+        width: 170px;
+        height: 130px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul-c {
+        width: 120px;
+        height: 70px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .header-list {
+        margin: 15px 0px 0px 25px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    #header-div-2 {
+        display: flex;
+        margin-top: 30px;
+        padding-right: 20px;
+        margin-right: 0px;
+    }
+    #header-btn-1 {
+        width: 90px;
+        height: 40px;
+        background-color: #e6f8f9;
+        margin-right: 10px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid black;
+    }
+    a #header-btn-2:hover {
+        background-color: #09959c
+    }
+    a #header-btn-1:hover {
+        background-color: navy;
+        color: white;
+    }
+    #header-btn-2 {
+        width: 150px;
+        height: 40px;
+        background-color: rgb(14, 179, 201);
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #section-1 {
+        width: 100%;
+        height: 700px;
+        background-color: #e6f8f9;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-1-aside-left {
+        margin-top: 80px;
+        overflow: hidden;
+    }
+    h1 {
+        display: none;
+    }
+    #section-1-aside-left {
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    #section-1-para {
+        display: block;
+        font-size: 65px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1b1642;
+    }
+    #section-1-paragraph {
+        display: none;
+    }
+    #section-1-paragraph-3 {
+        display: block;
+        font-size: 19px;
+        margin-top: 30px;
+        font-weight: normal;
+    }
+    #section-1-btn {
+        width: 170px;
+        height: 50px;
+        background-color: rgb(14, 179, 201);
+        border-radius: 4px;
+        margin-left: 18px;
+        font-size: 17px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a #section-1-btn:hover {
+        background-color: turquoise;
+    }
+    #section-1-aside-right {
+        padding-top: 100px;
+    }
+    #img-section-1-aside-right {
+        display: flex;
+        width: 370px;
+        padding: 80px 30px 0px 0px;
+    }
+    #section-2 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+    #section-2-aside-left {
+        padding-top: 30px;
+    }
+    #section-2-aside-right {
+        padding-top: 30px;
+    }
+    #section-2-img {
+        width: 450px;
+        margin-top: 45px;
+    }
+    #section-2-paragraph-1 {
+        display: none;
+    }
+    #section-2-paragraph-1-1 {
+        display: block;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        padding: 40px 0px 20px 0px;
+    }
+    #section-2-paragraph-2 {
+        display: none;
+    }
+    #section-2-paragraph-2-1 {
+        display: block;
+        margin-left: 0px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+    h2 {
+        display: none;
+    }
+    #section-3 {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-3-paragrapg-1 {
+        display: block;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 30px;
+        color: rgb(28, 28, 56);
+    }
+    #section-3-paragraph-1-span {
+        margin-left: 70px;
+    }
+    #section-3-paragraph {
+        display: none;
+    }
+    #section-3-paragraph-4 {
+        font-size: 20px;
+    }
+    #section-4 {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-4-div-1 {
+        display: flex;
+        padding-left: 30px;
+    }
+    #section-4-div-2 {
+        display: flex;
+        padding-left: 30px;
+    }
+    .section-4-paragraph-1 {
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    .section-4-pictures {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin: 30px;
+    }
+    .section-4-div-1a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px;
+    }
+    #section-5 {
+        width: 100%;
+        height: 600px;
+        background-color: rgb(35, 35, 66);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-5-paragraph-1 {
+        display: none;
+    }
+    #section-5-paragraph-1-1 {
+        display: block;
+        font-size: 35px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 40px;
+    }
+    #section-5-div {
+        display: flex;
+    }
+    #section-5-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    #section-5-span {
+        font-size: 14px;
+    }
+    #section-5-paragraph-2 {
+        display: none;
+    }
+    #section-5-paragraph-2-1 {
+        display: block;
+        color: white;
+        margin-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    #section-5-span-2 {
+        color: rgb(20, 201, 224);
+        position: relative;
+        bottom: 3px;
+        font-size: 22px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #section-6 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-6-paragraph-1 {
+        display: none;
+    }
+    #section-6-paragraph-1-1 {
+        display: block;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: rgb(24, 24, 41);
+        margin-bottom: 23px;
+    }
+    #section-6-paragraph-2 {
+        display: none;
+    }
+    #section-6-paragraph-2-1 {
+        display: block;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    #section-6-span-2 {
+        margin-left: 150px;
+    }
+    #section-6-span-3 {
+        margin-left: 55px;
+    }
+    #section-7 {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section-7-div-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 17px;
+    }
+    .section-7-img {
+        width: 180px;
+        height: 50px;
+        margin: 30px 0px 20px 0px;
+    }
+    #section-8 {
+        width: 92%;
+        height: 500px;
+        background-color: turquoise;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        margin: 4% 4%;
+    }
+    #section-8-paragraph-1 {
+        display: none;
+    }
+    #section-8-paragraph-1-1 {
+        display: block;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 40px;
+    }
+    #section-8-span {
+        margin-left: 40px;
+    }
+    #section-8-btn-div {
+        display: flex;
+        flex-direction: row;
+    }
+    #section-8-btn-1 {
+        width: 180px;
+        height: 50px;
+        background-color: white;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+    #section-8-btn-2 {
+        width: 250px;
+        height: 50px;
+        background-color: rgb(25, 19, 56);
+        border-radius: 4px;
+        font-size: 18px;
+        color: white;
+        margin: 60px 0px 0px 12px;
+    }
+    #section-9 {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(20, 20, 65);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #stutern-logo-section-9 {
+        width: 140px;
+        height: 25px;
+        margin-left: 0px;
+    }
+    #section-9-div-1 {
+        margin-left: 0px;
+    }
+    .section-9-div-1 {
+        margin: 50px;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li {
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li a {
+        text-decoration: none;
+        color: gray;
+    }
+    p a {
+        text-decoration: none;
+        color: gray;
+    }
+    p a:hover {
+        color: white;
+    }
+    li a:hover {
+        color: rgb(47, 206, 255);
+    }
+}
