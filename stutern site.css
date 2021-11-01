@@ -345,20 +345,27 @@ li {
     #header {
         width: 100%;
         height: 100px;
-        background-color: #e6f8f9;
+        background: linear-gradient( 86deg, #e6f8f9, rgb(241, 18, 204), white, black);
         display: flex;
         position: fixed;
     }
     #stutern-logo {
-        width: 140px;
-        height: 40px;
-        margin-top: 20px;
+        width: 130px;
+        height: 25px;
+        margin-top: 26px;
+    }
+    #stutern-logo:hover {
+        transform: scale(1.2);
+    }
+    a #stutern-logo:hover {
+        background-color: turquois5;
     }
     #header-btn {
         display: none;
     }
     #nav-div {
         display: flex;
+        margin-right: 0px;
     }
     nav ul li {
         position: relative;
@@ -367,57 +374,91 @@ li {
     }
     nav ul li a {
         display: block;
-        padding: 0 3px;
+        padding: 0 0px;
         text-decoration: none;
         color: black;
-        font-size: 18px;
-    }
-    nav ul li a:hover {
-        background-color: crimson;
+        font-size: 15px;
     }
     nav ul ul {
+        width: 180px;
+        height: 120px;
+        background-color: white;
         position: absolute;
-        top: 20px;
         display: none;
     }
     nav ul li:hover>ul {
         display: block;
     }
     nav ul ul li {
-        width: 150px;
         float: none;
-        display: list-item;
         position: relative;
+        margin-top: 13px;
+    }
+    #header-ul-a {
+        width: 140px;
+        height: 100px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul-b {
+        width: 170px;
+        height: 130px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul-c {
+        width: 120px;
+        height: 70px;
+        background-color: white;
+        border-radius: 7px;
     }
     #header-ul {
         display: flex;
         margin-top: 20px;
+        margin-left: 0px;
     }
     .header-list {
-        margin: 15px 10px;
+        margin: 15px 0px 0px 25px;
+        font-size: 18px;
+        font-weight: normal;
     }
     #header-div-2 {
         display: flex;
         margin-top: 30px;
-        padding-right: 30px;
+        padding-right: 20px;
+        margin-right: 0px;
     }
     #header-btn-1 {
-        width: 50px;
-        height: 30px;
-        background-color: orchid;
+        width: 70px;
+        height: 40px;
+        background-color: #e6f8f9;
         margin-right: 10px;
         border-radius: 4px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid black;
+    }
+    a #header-btn-2:hover {
+        background-color: #09959c;
+        transform: scale(1.1);
+    }
+    a #header-btn-1:hover {
+        background-color: navy;
+        color: white;
     }
     #header-btn-2 {
-        width: 70px;
-        height: 30px;
-        background-color: greenyellow;
+        width: 140px;
+        height: 40px;
+        background-color: rgb(14, 179, 201);
         border-radius: 4px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
     }
     #section-1 {
         width: 100%;
         height: 650px;
-        background-color: #09959c;
+        background: linear-gradient( 86deg, #e6f8f9, rgb(241, 18, 204), white, black);
         padding-top: 100px;
         display: flex;
         flex-direction: row;
@@ -443,8 +484,30 @@ li {
     }
     #img-section-1-aside-right {
         display: flex;
-        width: 350px;
+        width: 280px;
         padding-right: 20px;
+    }
+    #section-1-btn {
+        width: 170px;
+        height: 50px;
+        background-color: rgb(14, 179, 201);
+        border-radius: 4px;
+        margin-left: 18px;
+        font-size: 17px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a #section-1-btn:hover {
+        background-color: turquoise;
+        transform: scale(1.2);
+    }
+    #img-section-1-aside-right {
+        display: flex;
+        width: 370px;
+        padding: 80px 30px 0px 0px;
+    }
+    #img-section-1-aside-right:hover {
+        transform: scale(1.3);
     }
     #section-2 {
         width: 100%;
@@ -520,7 +583,7 @@ li {
     #header {
         width: 100%;
         height: 100px;
-        background-color: #e6f8f9;
+        background: linear-gradient( 86deg, rgb(252, 41, 41), blue, rgb(212, 245, 25), rgb(34, 216, 248));
         display: flex;
         position: fixed;
     }
@@ -529,16 +592,22 @@ li {
     }
     #stutern-logo {
         width: 160px;
-        height: 50px;
-        margin-top: 20px;
+        height: 30px;
+        margin-top: 30px;
         margin-left: 10px;
+    }
+    #stutern-logo:hover {
+        transform: scale(1.2);
+    }
+    a #stutern-logo:hover {
+        background-color: turquois5;
     }
     #header-btn {
         display: none;
     }
     #nav-div {
         display: flex;
-        margin-left: 0px;
+        margin-right: 0px;
     }
     nav ul li {
         position: relative;
@@ -547,27 +616,43 @@ li {
     }
     nav ul li a {
         display: block;
-        padding: 0 3px;
+        padding: 0 0px;
         text-decoration: none;
         color: black;
-        font-size: 18px;
-    }
-    nav ul li a:hover {
-        background-color: crimson;
+        font-size: 15px;
     }
     nav ul ul {
+        width: 180px;
+        height: 120px;
+        background-color: white;
         position: absolute;
-        top: 20px;
         display: none;
     }
     nav ul li:hover>ul {
         display: block;
     }
     nav ul ul li {
-        width: 150px;
         float: none;
-        display: list-item;
         position: relative;
+        margin-top: 13px;
+    }
+    #header-ul-a {
+        width: 140px;
+        height: 100px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul-b {
+        width: 170px;
+        height: 130px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    #header-ul-c {
+        width: 120px;
+        height: 70px;
+        background-color: white;
+        border-radius: 7px;
     }
     #header-ul {
         display: flex;
@@ -575,37 +660,47 @@ li {
         margin-left: 0px;
     }
     .header-list {
-        margin: 15px 10px 0px 7px;
-        font-size: 21px;
+        margin: 15px 0px 0px 25px;
+        font-size: 18px;
+        font-weight: normal;
     }
     #header-div-2 {
         display: flex;
         margin-top: 30px;
-        padding-right: 40px;
-        margin-left: 0px;
+        padding-right: 20px;
+        margin-right: 0px;
     }
     #header-btn-1 {
-        width: 70px;
-        height: 40px;
-        background-color: orchid;
-        margin-right: 10px;
-        border-radius: 4px;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    #header-btn-2 {
         width: 90px;
         height: 40px;
-        background-color: greenyellow;
+        background-color: #e6f8f9;
+        margin-right: 10px;
         border-radius: 4px;
-        font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid black;
+    }
+    a #header-btn-2:hover {
+        background-color: #09959c;
+        transform: scale(1.1);
+    }
+    a #header-btn-1:hover {
+        background-color: navy;
+        color: white;
+    }
+    #header-btn-2 {
+        width: 150px;
+        height: 40px;
+        background-color: rgb(14, 179, 201);
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: normal;
         font-family: Arial, Helvetica, sans-serif;
     }
     #section-1 {
         width: 100%;
         height: 650px;
-        background-color: #09959c;
+        background: linear-gradient( 86deg, rgb(252, 41, 41), blue, rgb(212, 245, 25), rgb(34, 216, 248));
         padding-top: 100px;
         display: flex;
         flex-direction: row;
@@ -639,10 +734,27 @@ li {
     #section-1-aside-right {
         padding-top: 100px;
     }
+    #section-1-btn {
+        width: 170px;
+        height: 50px;
+        background-color: rgb(14, 179, 201);
+        border-radius: 4px;
+        margin-left: 18px;
+        font-size: 17px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a #section-1-btn:hover {
+        background-color: turquoise;
+        transform: scale(1.2);
+    }
     #img-section-1-aside-right {
         display: flex;
-        width: 350px;
+        width: 370px;
         padding: 80px 30px 0px 0px;
+    }
+    #img-section-1-aside-right:hover {
+        transform: scale(1.3);
     }
     #section-2 {
         width: 100%;
@@ -862,7 +974,7 @@ li {
     #header {
         width: 100%;
         height: 100px;
-        background-color: #e6f8f9;
+        background: linear-gradient( 86deg, #e6f8f9, rgb(37, 218, 250), #e6f8f9);
         display: flex;
         position: fixed;
     }
@@ -874,6 +986,9 @@ li {
         height: 30px;
         margin-top: 20px;
         margin-left: 10px;
+    }
+    #stutern-logo:hover {
+        transform: scale(1.2);
     }
     a #stutern-logo:hover {
         background-color: turquois5;
@@ -957,7 +1072,8 @@ li {
         border: 2px solid black;
     }
     a #header-btn-2:hover {
-        background-color: #09959c
+        background-color: #09959c;
+        transform: scale(1.1);
     }
     a #header-btn-1:hover {
         background-color: navy;
@@ -975,7 +1091,7 @@ li {
     #section-1 {
         width: 100%;
         height: 700px;
-        background-color: #e6f8f9;
+        background: linear-gradient( 86deg, #e6f8f9, rgb(37, 218, 250), #e6f8f9);
         padding-top: 100px;
         display: flex;
         flex-direction: row;
@@ -1019,6 +1135,7 @@ li {
     }
     a #section-1-btn:hover {
         background-color: turquoise;
+        transform: scale(1.2);
     }
     #section-1-aside-right {
         padding-top: 100px;
@@ -1027,6 +1144,9 @@ li {
         display: flex;
         width: 370px;
         padding: 80px 30px 0px 0px;
+    }
+    #img-section-1-aside-right:hover {
+        transform: scale(1.3);
     }
     #section-2 {
         width: 100%;
